@@ -5,7 +5,7 @@ proxy:
   admin-groups: admins
   keycloak:
     realm: shinyproxy                                                     
-    auth-server-url: https://sp-keycloak.domain.com/auth
+    auth-server-url: https://testate.datatailors.ch/auth
     resource: shinyproxy                                                  
     credentials-secret: ****Secret**** # the Keycloak secret for your "client application"
   docker:

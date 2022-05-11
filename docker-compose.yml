@@ -5,7 +5,7 @@ services:
     image: steveltn/https-portal:1
     restart: always
     environment:
-      DOMAINS: 'sp-keycloak.domain.com -> http://dockerhost:8010, sp.domain.com -> http://dockerhost:8020'  # change 'domain.com' to your domain
+      DOMAINS: 'sp-keycloak.testate.datatailors.ch -> http://dockerhost:8010, sp.testate.datatailors.ch -> http://dockerhost:8020'  # change 'domain.com' to your domain
       STAGE: local  # change this to 'production' once you're sure DNS is working
     networks:
       - sp-net
