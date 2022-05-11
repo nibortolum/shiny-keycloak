@@ -31,7 +31,7 @@ services:
     networks:
       - sp-net
     environment:
-      PROXY_ADDRESS_FORWARDING: true
+      PROXY_ADDRESS_FORWARDING: 'true'
       DB_VENDOR: mariadb
   shinyproxy:
     image: shinyproxy
